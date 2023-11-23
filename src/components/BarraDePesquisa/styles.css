@@ -1,0 +1,15 @@
+input {
+    width: 100%;
+    color: var(--cinza-claro);
+    border: none;
+    height: 49px;
+    padding: 8px 16px 8px 70px;
+    background: var(--cinza-escuro) url("./assets/search.svg") no-repeat 32px;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    font-family: var(--fonte);
+
+    font-size: 22px;
+}

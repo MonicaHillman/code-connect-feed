@@ -1,0 +1,20 @@
+.lista-filtros {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 1em;
+}
+
+.container-filtros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-filtros button {
+    background-color: transparent;
+    color: var(--cinza-medio);
+    border: none;
+    font-family: var(--fonte);
+    font-size: 18px;
+    line-height: 27px;
+}
