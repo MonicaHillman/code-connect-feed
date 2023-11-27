@@ -1,0 +1,10 @@
+.container__publicacao .card {
+    height: 50%;
+}
+
+.container__publicacao h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: var(--cinza-medio);
+}

@@ -1,0 +1,11 @@
+.container {
+    width: 62.500vw;
+    margin: 3.5em auto;
+
+    display: flex;
+    gap: 16px;
+}
+
+main {
+    width: 100%;
+}
