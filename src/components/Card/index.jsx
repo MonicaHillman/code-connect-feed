@@ -7,8 +7,9 @@ import { Link } from 'react-router-dom';
 
 export default function Card({ id, imagemUrl, titulo, resumo, linhasDeCodigo, compartilhamentos, comentarios, usuario }) {
     return (
-        <Link to={`/postagem/${id}`}>
-            <article className="card">
+
+        <article className="card">
+            <Link to={`/postagem/${id}`} className='card__link'>
                 <div className='card__imagem'>
                     <img src={imagemUrl} alt='Imagem do post' />
                 </div>
@@ -44,7 +45,7 @@ export default function Card({ id, imagemUrl, titulo, resumo, linhasDeCodigo, co
                         </div>
                     </div>
                 </div>
-            </article>
-        </Link >
+            </Link>
+        </article>
     );
 }

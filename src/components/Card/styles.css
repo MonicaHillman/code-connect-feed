@@ -1,6 +1,6 @@
 .card {
     color: var(--cinza-claro);
-
+    text-decoration: none;
     background-color: var(--cinza-escuro);
     border-radius: 8px;
 
@@ -31,6 +31,11 @@
 .card__conteudo {
     padding: 16px;
     height: 100%;
+}
+
+.card__link {
+    text-decoration: none;
+    color: var(--cinza-claro);
 }
 
 .conteudo__texto {

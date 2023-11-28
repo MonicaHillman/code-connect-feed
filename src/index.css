@@ -1,5 +1,6 @@
 :root {
   --fonte: 'Prompt', sans-serif;
+  --fonte-codigo: 'Roboto Mono', monospace;
   --verde-destaque: #81FE88;
   --verde-petroleo: #132E35;
   --grafite: #01080E;

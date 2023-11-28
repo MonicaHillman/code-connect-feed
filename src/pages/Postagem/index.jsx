@@ -36,7 +36,7 @@ export default function Postagem() {
                 usuario={publicacao.usuario}
             />
 
-            <h2>Código</h2>
+            
             <Codigo>
                 {publicacao.conteudo_codigo}
             </Codigo>
