@@ -7,7 +7,7 @@ export default function Comentarios({ comentarios }) {
                 {comentarios ? comentarios.map((item, index) => (
                     <li key={index}>
                         <span>
-                            <img src='https://www.w3schools.com/howto/img_avatar.png' alt="avatar" />
+                            <img src={item.usuario.imagem} alt="avatar" />
                             <p>{item.usuario.nome}</p>
                             <p>{item.texto}</p>
                         </span>
